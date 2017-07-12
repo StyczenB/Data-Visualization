@@ -6,7 +6,7 @@ while True:
     # Make a random walk and plot the points.
     rw = RandomWalk()
     rw.fill_walk()
-    
+
     # Set the size of the plotting window.
     plt.figure(dpi=128, figsize=(10, 6))
     point_number = list(range(rw.num_points))
